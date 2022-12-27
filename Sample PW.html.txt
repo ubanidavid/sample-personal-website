@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> </title>
+        <link href="../MyPortfolio/Resources/style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Crimson+Pro&family=Libre+Franklin&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/00b2edbba7.js" crossorigin="anonymous"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script src="../MyPortfolio/Resources/main.js" async></script>
+    <body>
+
+        <!-- HEADER -->
+        <header id="main-header" class="main-header header"> 
+            <div class="main-wrap">
+                <div class="header-wrap-inner">
+                    <div class="left-part">
+                        <a href="#main">
+                        </a>
+                    </div>
+                    <div class="right-part">
+                        <!-- NAV -->
+                        <button id="burger" class="open-main-nav">
+                            <span class="burger"></span>
+                            <span class="burger-text">Menu</span>
+                        </button>
+                        <nav id="main-nav" class="main-nav" role="navigation"> 
+                            <ul id="main-menu" class="menu">
+                                <li id="menu-item-1" class="page_item page-item-1"></li>
+                                    <a href="#main" aria-label="Aller à la page d'accueil">Home</a>
+                                <li id="menu-item-2" class="page_item page-item-2"></li>
+                                    <a href="#about" aria-label="Aller à la section à propos">About Me</a>
+                                <li id="menu-item-3" class="page_item page-item-3"></li>
+                                    <a href="#skills" aria-label="Aller à la section compétences">Skills</a>
+                                <li id="menu-item-4" class="page_item page-item-4"></li>
+                                    <a href="#projects" aria-label="Aller à la section projets">Projects</a>
+                                <li id="menu-item-5" class="page_item page-item-5"></li>
+                                    <a href="#contact" aria-label="Aller à la section contact">Contact</a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>  
+        </header>
+
+        <!-- MAIN -->
+        <main id="main" class="main-text-content">
+            <!-- ABOUT SECTION -->
+            <section id="about" class="section-about">
+                <div class="wrapper">
+                    <h2>Hello</h2>
+                    <div class="container-content">
+                        <div class="container-img-profile">
+                            <img src="https://avatars.githubusercontent.com/u/83729534?v=4" alt="Ubani's profile pic">
+                        </div>
+                        <div class="container-text">
+                            <h3>I'm Ubani</h3>
+                            <p>A prolific programmer that's greatly interseted and fascinated in blockchain technology. 
+                            </p>
+                            <br>
+                            <p>I've programmed and deployed a number of websites and deployed my first smart contract. Python is one of my favourite programming languages though.
+                            </p>
+                            <br>
+                            <p> <a>Hobbies and priorities:</a> I really love gaming and swimming at a condusive swimming pool nearby .
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SKILLS SECTION -->
+            <section id="skills" class="section-skills">
+                <div class="wrapper">
+                    <h2>Skills</h2>
+                    <div class="cols">
+                        <div class="left-col">
+                            <h3>Programmation Web</h3>
+                            <div class="square">
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <i class="devicon devicon-html5-plain" aria-hidden="true"></i>
+                                    </div>
+                                    <p>HTML5</p>
+                                </div>
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <i class="devicon devicon-css3-plain" aria-hidden="true"></i>
+                                    </div>
+                                    <p>CSS</p>
+                                </div>
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <i class="devicon devicon-javascript-plain" aria-hidden="true"></i>
+                                    <p>Python</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="middle-col">
+                            <h3>Tools</h3>
+                            <div class="square">
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <i class="devicon devicon-github-original" aria-hidden="true"></i>
+                                    </div>                                   
+                                    <p>GitHub</p>
+                                </div>
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <i class="devicon devicon-git-plain" aria-hidden="true"></i>
+                                    </div>
+                                    <p>git</p>
+                                </div>
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <i class="devicon fa-solid fa-terminal" aria-hidden="true"></i>
+                                    </div>
+                                    <p>Command Line</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <h3>Other Abilities</h3>
+                            <div class="square">
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <img src="https://github.com/ByronMike/MyPortfolio/blob/main/Resources/images/icon-web-accessibility.png?raw=true" alt="Web accessibility logo" aria-hidden="true">
+                                        <p>Web accessibility</p>
+                                    </div>
+                                </div>
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <img src="https://github.com/ByronMike/MyPortfolio/blob/main/Resources/images/icon-responsive.png?raw=true" alt="Responsive logo" aria-hidden="true">
+                                        <p>Responsive</p>
+                                    </div>
+                                </div>
+                                <div class="container-icons">
+                                    <div class="box-icon">
+                                        <i class="devicon-wordpress-plain" aria-hidden="true"></i>
+                                    </div>
+                                    <p>Wordpress</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PROJECTS SECTION -->
+            <section id="projects" class="section-projects">
+                <div class="wrapper">
+                    <h2>Projects</h2>
+                    <!-- PROJECTS : n°1-->
+                    <div id="container-project1" class="container-project">
+                        <div class="container-text">
+                            <h3>A few of my projects:</h3>
+                          <h4>
+                                <a href="https://first-landing-page-project-gb11gdljb-sanniubanidavid-gmailcom.vercel.app/" target="_blank" aria-label="Aller sur le blog Surf Community">A landing page I built off a a course on Youtube </a>
+                            </h4>
+                            <h4>
+                                <a href="https://ubani-s-personal-website.vercel.app/firstindex.html" target="_blank" aria-label="Aller sur le blog Surf Community">My Personal Website</a>
+                            </h4>
+                          <h4>
+                                <a href="https://github.com/ubanidavid/My-First-Smart-contract/blob/main/SimpleStorage.sol" target="_blank" aria-label="Aller sur le blog Surf Community">My First smart Contract</a>
+                            </h4>
+                        </div>
+                           </div>
+                        </div>
+                    </div>
+                       </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT SECTION -->
+            <section id="contact" section="contact">
+                <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>You can send me a direct message on Instagram or e-mail me🤗</h3>
+        <p class="contact-message">
+        </p>
+        <a class="btn" href="mailto:sanniubanidavid@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://github.com/ubanidavid">Github</a>
+      <a class="footer-link" href="https://instagram.com/ubani.4x/">Instagram</a>
+      <p class="copyright"></p>
+    </div>                    </div>
+                </div>
+            </section>
+        </main>
+
+         <!-- FOOTER -->
+         <footer>
+            <div class="wrapper">
+                <div class="container-content">
+                    <p>© Sanni Ubani 2022</p>
+                </div>
+                <div class="container-social">
+                    <div class="container-icons">
+                        <ul id="footer-social" class="footer-social">
+                            <li id="footer-social-1" class="social-item">
+                                <a href="https://www.linkedin.com/in/sanni-ubani-3b6377235/" target="_blank" aria-label="My Linkdin">
+                                    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li id="footer-social-2" class="social-item">
+                                <a href="https://github.com/ubanidavid" target="_blank" aria-label="Ubani's github">
+                                    <i class="fa-brands fa-github-alt" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li id="footer-social-3" class="social-item">
+                               
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         </footer>              
+    </body>
+</html>
+
